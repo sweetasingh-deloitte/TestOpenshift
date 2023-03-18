@@ -1,0 +1,58 @@
+.Landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Landing-heading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 77.956px;
+  line-height: 117px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.Landing-sub {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.Landing-book {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #1c466c;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.86);
+  border: 0.5px solid rgba(0, 0, 0, 0.28);
+  box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+}
+
+.Landing-services {
+  margin: 0 1.5rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  background-color: #2a5d85;
+  color: #ffffff;
+  box-sizing: border-box;
+
+  border: 1.5px solid #ffffff;
+  box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+}
+.Landing-book,
+.Landing-services {
+  padding: 0.5rem 1rem;
+}
