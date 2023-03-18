@@ -1,0 +1,13 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+.topbarIconsContainer{
+position: relative;
+cursor: pointer;
+margin-right: 10px;
+}
+.others{
+  flex: 4;
+  /* background-color: aquamarine; */
+  }
